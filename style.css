@@ -1,42 +1,108 @@
+.name {
+  font-size: 45px;
+  margin: 0;
+  text-shadow: 1px 5px black;
+}
+/* each individual nav item */
+.menu-item {
+  font-size: 20px;
+  background-color: rgb(201, 145, 201);
+  background-image: linear-gradient(rgb(238, 135, 216), rgb(0, 0, 0));
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-left: 4%;
+  border: 5px, white;
+  border-radius: 50%;
+  text-align: center;
+}
+/* contains all of the links */
+.all-menu {
+  position: relative;
+  left: 54%;
+  top: 0;
+  text-shadow: 5px 3px black;
+}
 
-
-.navbar-brand {
-    font-size: 30px;
+.complete {
+  background-color: blueviolet;
+  border-bottom: solid 3px black;
+  height: 90px;
+}
+.menu-item:active {
+  color: blueviolet;
+}
+.button: {
+  margin: 1.5%;
 }
 
 body {
-    background-color: rgb(175, 132, 175);
-    /* background-color: linear-gradient; */
-    font-family: dancing script;
+  background-color: rgb(247, 232, 247);
+  background-image: linear-gradient
+    (vertical, rgb(175, 132, 175) rgb(54, 47, 54));
+  font-family: satisfy;
 }
-
 
 p {
-    font-size: 24px;
+  font-size: 20px;
 }
-.container {
-    margin-top: 20px;
-    display: flex-wrap;
-    border: 2px solid white;
-}
-h1 {
-    padding-left:30px;
-}
-.col-lg-3 {
-    padding-left: 20px;
-}
-.col-lg-12 {
-    margin-left: 20px;
+/* display: flex-wrap; */
+.content {
+  margin-top: 10vw;
+  margin-left: 4vh;
+  width: 65%;
+  border: 2px solid white;
+  margin-right: 10vw;
+  height: 60%;
 }
 
+.surprise {
+  background-image: url(https://lh3.googleusercontent.com/proxy/cLAJI3vaVmyKD0v3TuVAtiGBBp9M33c6qzGsMA32xfVx5OW9PcwOgjFhDYLX3TdyTVjdoMAYkone76NfmlegQ_Xt6_M-9pBchBnwdOB_rzMuAcv1cvs);
+  /* background-position: left, bottom; */
+  background-repeat: no-repeat;
+}
+.picture {
+  float: left;
+  margin-right: 2vw;
+  margin-bottom: 2vw;
+}
+
+.content-body {
+}
 
 .footer {
-    font-size: 12px;
+  font-size: 12px;
+  text-align: center;
+  background-color: rgb(201, 145, 201);
+  margin-top: 20vw;
+  margin-bottom: 0;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-top: solid 3px black;
+}
+@media only screen and (max-width: 768px) {
+  .menu-item {
+    background-color: transparent;
+    background-image: none;
+    padding-left: 55%;
+    padding-right: 0%;
+    border: 0;
+    border-radius: 0;
     text-align: center;
-    background-color: purple;
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom:0;
-    padding: 10px;
+  }
+
+  .all-menu {
+    position: relative;
+    left: 15%;
+    padding-right: 2%;
+    top: 0;
     
+  }
+  .complete {
+     height: auto;
+    
+  }
 }
