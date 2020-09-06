@@ -1,7 +1,22 @@
+/* entire nav */
+.complete {
+  background-color: blueviolet;
+  border-bottom: solid 3px black;
+}
+
+/* "BRAND" */
 .name {
-  font-size: 45px;
+  font-size: 30px;
   margin: 0;
   text-shadow: 1px 5px black;
+}
+
+/* contains all of the links */
+.all-menu {
+  position: relative;
+  left: 66%;
+  top: 0;
+  text-shadow: 5px 3px black;
 }
 /* each individual nav item */
 .menu-item {
@@ -9,45 +24,40 @@
   background-color: rgb(201, 145, 201);
   background-image: linear-gradient(rgb(238, 135, 216), rgb(0, 0, 0));
   padding-left: 5%;
-  padding-right: 5%;
-  margin-left: 4%;
+  padding-right: 3%;
   border: 5px, white;
   border-radius: 50%;
   text-align: center;
 }
-/* contains all of the links */
-.all-menu {
-  position: relative;
-  left: 54%;
-  top: 0;
-  text-shadow: 5px 3px black;
-}
 
-.complete {
-  background-color: blueviolet;
-  border-bottom: solid 3px black;
-  height: 90px;
-}
 .menu-item:active {
   color: blueviolet;
 }
-.button: {
+.button {
   margin: 1.5%;
 }
 
-body {
-  background-color: rgb(247, 232, 247);
-  background-image: linear-gradient
-    (vertical, rgb(175, 132, 175) rgb(54, 47, 54));
-  font-family: satisfy;
+.portfolio {
+  padding-right: 6px;
 }
+
+body {
+  font-family: satisfy;
+  background-color: rgb(247, 232, 247);
+  margin: 0;
+  height: 100%;
+}
+/* .about-me {
+  font-size: 12px;
+} */
 
 p {
   font-size: 20px;
 }
 /* display: flex-wrap; */
 .content {
-  margin-top: 10vw;
+  margin-top: 15vw;
+  margin-bottom: 4vw;
   margin-left: 4vh;
   width: 65%;
   border: 2px solid white;
@@ -55,28 +65,20 @@ p {
   height: 60%;
 }
 
-.surprise {
-  background-image: url(https://lh3.googleusercontent.com/proxy/cLAJI3vaVmyKD0v3TuVAtiGBBp9M33c6qzGsMA32xfVx5OW9PcwOgjFhDYLX3TdyTVjdoMAYkone76NfmlegQ_Xt6_M-9pBchBnwdOB_rzMuAcv1cvs);
-  /* background-position: left, bottom; */
-  background-repeat: no-repeat;
-}
 .picture {
   float: left;
   margin-right: 2vw;
   margin-bottom: 2vw;
 }
 
-.content-body {
-}
-
 .footer {
   font-size: 12px;
   text-align: center;
   background-color: rgb(201, 145, 201);
-  margin-top: 20vw;
+  margin-top: 10px;
   margin-bottom: 0;
   padding-top: 1vw;
-  padding-bottom: 1vw;
+  padding-bottom: 0;
   position: fixed;
   left: 0;
   right: 0;
@@ -99,10 +101,13 @@ p {
     left: 15%;
     padding-right: 2%;
     top: 0;
-    
   }
   .complete {
-     height: auto;
-    
+    height: auto;
+  }
+  .surprise {
+    background-image: url(https://lh3.googleusercontent.com/proxy/cLAJI3vaVmyKD0v3TuVAtiGBBp9M33c6qzGsMA32xfVx5OW9PcwOgjFhDYLX3TdyTVjdoMAYkone76NfmlegQ_Xt6_M-9pBchBnwdOB_rzMuAcv1cvs);
+    background-repeat: no-repeat;
   }
 }
+  
