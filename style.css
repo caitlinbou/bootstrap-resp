@@ -2,13 +2,12 @@
 .complete {
   background-color: blueviolet;
   border-bottom: solid 3px black;
-  height: 100%;
+  min-height: 5vw;
 }
 
 /* "BRAND" */
 .name {
   font-size: 30px;
-  /* margin-left: 2vw; */
   text-shadow: 1px 5px black;
 }
 
@@ -25,7 +24,7 @@
   background-color: rgb(201, 145, 201);
   background-image: linear-gradient(rgb(238, 135, 216), rgb(0, 0, 0));
   padding-left: 5%;
-  padding-right: 3%; */
+  padding-right: 3%;
   border: 5px, white;
   border-radius: 50%;
   text-align: center;
@@ -42,18 +41,12 @@
   margin-right: 4px;
   margin-left: 4px;
 }
-
+/* end of NAVBAR, start of body */
 body {
   font-family: satisfy;
   background-color: rgb(247, 232, 247);
   margin: 0;
-  height: 100%;
-  padding-bottom: 10%:
 }
-/* WHY can't I impact the size of the h1 */
-/* .about-me {
-  font-size: 12px;
-} */
 
 p {
   font-size: 16px;
@@ -61,14 +54,14 @@ p {
 }
 
 .content {
-  margin-top: 15%;
-  margin-bottom: 10%;
-  margin-left: 5vh;
+  margin-top: 15vw;
+  margin-bottom: 10vw;
+  margin-left: 5vw;
   margin-right: 10vw; 
   width: 75%;
   border: 2px solid white;
-  height: 60%;
-  padding-top 1vw;
+  min-height: 87vw;
+  padding-top: 1vw;
   padding-bottom: 1vw;
 }
 
@@ -78,24 +71,23 @@ p {
   margin-bottom: 0vw;
 }
 
-.responsive {
+/* .responsive {
   width: 100%;
   height: auto;
-}
-
+} */
+/* footer-consistent for all style-sheets */
 .footer {
   font-size: 12px;
   text-align: center;
   background-color: rgb(201, 145, 201);
-  margin-top: 25vw;
-  margin-bottom: 0;
   padding-top: 1vw;
   padding-bottom: 1vw;
   border-top: solid 3px black;
   border-bottom: solid 3px black;
+  min-height: 8vw;
 }
 
-
+  /* MEDIA QUERY for changes to NAVBAR */
 @media only screen and (max-width: 991px) {
   .menu-item {
     background-color: transparent;
@@ -117,7 +109,7 @@ p {
     height: auto;
   }
   .surprise {
-    background-image: url(https://lh3.googleusercontent.com/proxy/cLAJI3vaVmyKD0v3TuVAtiGBBp9M33c6qzGsMA32xfVx5OW9PcwOgjFhDYLX3TdyTVjdoMAYkone76NfmlegQ_Xt6_M-9pBchBnwdOB_rzMuAcv1cvs);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTwqk3eRfGW5tJrJuOMRdAbrJBlIgcRZDjMkg&usqp=CAU);
     background-repeat: no-repeat;
   }
 }

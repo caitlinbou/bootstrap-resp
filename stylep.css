@@ -1,44 +1,43 @@
 /* entire nav */
-.complete {
+  .complete {
     background-color: blueviolet;
     border-bottom: solid 3px black;
-    height: 100%;
+    min-height: 5vw;
+    
   }
   
-  /* "BRAND" */
+  /* "BRAND-my name" */
   .name {
     font-size: 30px;
-    /* margin-left: 2vw; */
     text-shadow: 1px 5px black;
   }
   
-  /* contains all of the links */
+  /* contains all of the links in the nav bar */
   .all-menu {
     position: relative;
     left: 60%;
     top: 0;
     text-shadow: 5px 3px black;
   }
-  /* each individual nav item */
+  /* each individual nav button */
   .menu-item {
     font-size: 20px;
     background-color: rgb(201, 145, 201);
     background-image: linear-gradient(rgb(238, 135, 216), rgb(0, 0, 0));
     padding-left: 5%;
-    padding-right: 3%; */
+    padding-right: 3%;
     border: 5px, white;
     border-radius: 50%;
     text-align: center;
   }
   
+  /* "when clicked" color */
   .menu-item:active {
     color: blueviolet;
   }
   .click {
     margin: 0%;
   }
-  
-
   .portfolio {
     margin-right: 4px;
     margin-left: 4px;
@@ -48,83 +47,91 @@
     font-family: satisfy;
     background-color: rgb(247, 232, 247);
     margin: 0;
-    height: 100%;
-    padding-bottom: 10%:
   }
-  /* WHY can't I impact the size of the h1 */
-  /* .about-me {
-    font-size: 12px;
-  } */
-  
+
   p {
     font-size: 16px;
     margin: 0;
   }
-  
+
+    
    .content {
-    margin-top: 10%;
-    margin-bottom: 5%;
-    margin-left: 5vh;
-    margin-right: 10vw; 
-    width: 80%;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    margin-left: 5vw;
+    max-width: 80vw;
     border: 2px solid white;
     height: 60%;
-    padding-top 1vw;
-    padding-bottom: 1vw;
-  }
-
-.cats-col: {
-    padding-bottom: 2vw;
-}
-
-
-.pic-top: {
-    margin-bottom: 2vw;
-}
-  
-
-
-
-.footer {
-    font-size: 12px;
-    text-align: center;
-    background-color: rgb(201, 145, 201);
-    margin-top: 4vw;
-    margin-bottom: 0;
+    min-height: 87vw; 
     padding-top: 1vw;
     padding-bottom: 1vw;
-    border-top: solid 3px black;
-    border-bottom: solid 3px black;
   }
 
+  .responsive {
+    max-width: 98%;
+    height: auto;
+  } 
 
-  @media only screen and (max-width: 991px) {
-    .menu-item {
-      background-color: transparent;
-      background-image: none;
-      padding-left: 55%;
-      padding-right: 0%;
-      border: 0;
-      border-radius: 0;
-      text-align: center;
-    }
-  
-    .all-menu {
-      position: relative;
-      left: 15%;
-      padding-right: 2%;
-      top: 0;
-    }
-    .complete {
-      height: auto;
-    }
-    .surprise {
-      background-image: url(https://lh3.googleusercontent.com/proxy/cLAJI3vaVmyKD0v3TuVAtiGBBp9M33c6qzGsMA32xfVx5OW9PcwOgjFhDYLX3TdyTVjdoMAYkone76NfmlegQ_Xt6_M-9pBchBnwdOB_rzMuAcv1cvs);
-      background-repeat: no-repeat;
-    }
+  .top {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+
+  }
+  .middle {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
   }
 
-    .responsive {
-        max-width: 50%;
+  .bottom {
+    margin-top: 2vw;
+  }  
+
+  .rightCol {
+    padding-left: 5vw;
+
+  }
+
+  .leftCol {
+    padding-left: 5vw;
+/* footer-consistent for all style-sheets */
+  }
+  .footer {
+  font-size: 12px;
+  text-align: center;
+  background-color: rgb(201, 145, 201);
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  border-top: solid 3px black;
+  border-bottom: solid 3px black;
+  min-height: 8vw;
+  }
+
+  /* MEDIA QUERY for changes to NAVBAR */
+    @media only screen and (max-width: 991px) {
+      .menu-item {
+        background-color: transparent;
+        background-image: none;
+        padding-left: 55%;
+        padding-right: 0%;
+        border: 0;
+        border-radius: 0;
+        text-align: center;
+      }
+    
+      .all-menu {
+        position: relative;
+        left: 15%;
+        padding-right: 2%;
+        top: 0;
+      }
+      .complete {
         height: auto;
+      }
+      .surprise {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTwqk3eRfGW5tJrJuOMRdAbrJBlIgcRZDjMkg&usqp=CAU);
+        background-repeat: no-repeat;
+      }
     }
+
+      
+  
