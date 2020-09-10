@@ -1,11 +1,11 @@
 # bootstrap-resp
 
-In this project my aim was to build a main "about me" page, a portfolio page, and a contact page. 
+In this project I have built a 3 page Portfolio website, using Bootstrap for responsiveness, templates, and structure. 
 
-I started with the "about me" page, and once I was happy with the main layout used the CSS as a skeleton for the other two pages as well. 
+I have included screen shots of three various screen sizes for each page: 400px, 768px, and 992px, in the "screenshots" folder.
 
-The portfolio page was tricky for me at first, as I was not using the rows and columns as bootstrap properly. Once that was sorted out, it was a lot better. 
+On the Contact page, I used Font-Awesome to add social media links, and they are functional. 
 
-On the Contact page, I used Font-Awesome to add some social media links, and they are functional. For the contact form that I used, I attempted to attach a php document, but it does not function. My instructor said that was beyond the expectations of the assignment.
+I used https://validator.w3.org/ HTML validation service to resolve all HTML warnings.
 
-All other links are functional, and the NAVBAR and FOOTER are consistent accross all pages. I am happy with the responsiveness for all pages, although there are certain intermediary screen sizes where the footer on the "about me" page does not remain sticky as it should. 
+I used a media query to allow for stylization of the NAVBAR links in expanded view to keep from impacting the boot

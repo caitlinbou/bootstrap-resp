@@ -61,7 +61,6 @@
     margin-left: 5vw;
     max-width: 80vw;
     border: 2px solid white;
-    height: 60%;
     min-height: 87vw; 
     padding-top: 1vw;
     padding-bottom: 1vw;
@@ -75,27 +74,34 @@
   .top {
   margin-top: 2vw;
   margin-bottom: 2vw;
+  padding: 1vw;
 
   }
   .middle {
   margin-top: 2vw;
   margin-bottom: 2vw;
+  padding: 1vw;
   }
 
   .bottom {
     margin-top: 2vw;
+    padding: 1vw;
   }  
 
   .rightCol {
     padding-left: 5vw;
-
+    padding: 1vw;
   }
 
   .leftCol {
     padding-left: 5vw;
+    padding: 1vw;
 /* footer-consistent for all style-sheets */
   }
-  .footer {
+  footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
   font-size: 12px;
   text-align: center;
   background-color: rgb(201, 145, 201);
@@ -134,4 +140,6 @@
     }
 
       
+  
+  
   

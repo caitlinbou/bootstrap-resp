@@ -54,13 +54,13 @@ p {
 }
 
 .content {
-  margin-top: 15vw;
+  margin-top: 10vw;
   margin-bottom: 10vw;
   margin-left: 5vw;
-  margin-right: 10vw; 
+  margin-right: 20vw; 
   width: 75%;
   border: 2px solid white;
-  min-height: 87vw;
+  min-height: 60vw;
   padding-top: 1vw;
   padding-bottom: 1vw;
 }
@@ -71,12 +71,11 @@ p {
   margin-bottom: 0vw;
 }
 
-/* .responsive {
-  width: 100%;
-  height: auto;
-} */
 /* footer-consistent for all style-sheets */
-.footer {
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
   font-size: 12px;
   text-align: center;
   background-color: rgb(201, 145, 201);
@@ -113,3 +112,4 @@ p {
     background-repeat: no-repeat;
   }
 }
+

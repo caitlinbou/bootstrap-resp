@@ -48,7 +48,6 @@
     font-family: satisfy;
     background-color: rgb(247, 232, 247);
     margin: 0;
-    /* padding-bottom: 10%: */
   }
 
   p {
@@ -57,15 +56,16 @@
   }
   
   .content {
-    margin-top: 15vw;
+    margin-top: 4vw;
     margin-bottom: 10vw;
     margin-left: 5vw;
     margin-right: 10vw; 
     width: 75%;
     border: 2px solid white;
-    min-height: 87vw;
+    min-height: 40vw;
     padding-top: 1vw;
     padding-bottom: 1vw;
+    padding-right: 10vw;
   }
 /* buttons for page */
     fa {
@@ -89,7 +89,10 @@
       color: white;
     } 
   /* footer-consistent for all style-sheets */
-    .footer {
+    footer {
+      position: fixed;
+      width: 100%;
+      bottom: 0; 
       font-size: 12px;
       text-align: center;
       background-color: rgb(201, 145, 201);
@@ -127,3 +130,4 @@
     
   
   
+      
